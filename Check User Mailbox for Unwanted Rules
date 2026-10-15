@@ -1,0 +1,5 @@
+#Go to O365 admin. Cliock the Chell button at the top of the screen in a non-private window. 
+Run
+
+Connect-ExchangeOnline -Device
+Get-InboxRule -Mailbox user@domain.com
